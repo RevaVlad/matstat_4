@@ -1,7 +1,7 @@
 import scipy
 
 n = 10000
-alpha = 0.95
+alpha = 1 - 0.95
 _p = 4000 / 10000
 
 percentile = scipy.stats.norm.ppf(1 - alpha / 2)
